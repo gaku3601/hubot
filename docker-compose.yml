@@ -6,7 +6,7 @@ services:
             context: .
             dockerfile: Dockerfile
         environment:
-            - HUBOT_SLACK_TOKEN=xoxb-257992647171-A4KcuWoD895e7lRsU65e51D4
+            - HUBOT_SLACK_TOKEN=$HUBOT
             - OWNER=gaku pro.gaku@gmail.com
             - BOTNAME=hey
             - DESCRIPTION=testbot
