@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+    hubot:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        environment:
+            - HUBOT_SLACK_TOKEN=xoxb-257992647171-A4KcuWoD895e7lRsU65e51D4
+            - OWNER=gaku pro.gaku@gmail.com
+            - BOTNAME=hey
+            - DESCRIPTION=testbot
