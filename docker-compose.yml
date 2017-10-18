@@ -10,3 +10,5 @@ services:
             - OWNER=gaku pro.gaku@gmail.com
             - BOTNAME=hey
             - DESCRIPTION=testbot
+        volumes:
+            - "./scripts:/home/myhubot/scripts"
