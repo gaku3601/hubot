@@ -2,6 +2,9 @@
 # Overview
 This repository is storing Dockerfile that create hubot to be connected with slack.
 
+# Supported Tags and Dockerfile links
+[`1.0.1`](https://github.com/gaku3601/hubot/tree/1.0.1) [`1.0.0`](https://github.com/gaku3601/hubot/tree/1.0.0)
+
 # Usage
 Please prepare docker-compose.yml that like The following code.
 ~~~
